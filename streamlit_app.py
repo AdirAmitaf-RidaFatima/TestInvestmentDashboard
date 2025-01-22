@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Specify the file path
-file_path = r"/workspaces/TestInvestmentDashboard/tabula-PeriodicTradeSummaryReport.csv"
+file_path = r"tabula-PeriodicTradeSummaryReport.csv"
 
 # Read the CSV file
 df = pd.read_csv(file_path)
